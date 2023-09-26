@@ -1,0 +1,72 @@
+@font-face {
+    font-family: HardRock;
+    src: url(../fonts/HARD_ROCK.ttf) format(truetype);
+}
+@font-face {
+    font-family: RockNRoll;
+    src: url(../fonts/rocknroll_typo_crazy.ttf) format(truetype);
+}
+@font-face {
+    font-family: TheDark;
+    src: url(../fonts/TheDark.ttf) format(truetype);
+}
+.nav-item{
+    font-family:'TheDark', sans-serif;
+}
+section>figure>img{
+    max-height: 17rem;
+}
+h3{
+    font-family:'TheDark', sans-serif;
+    color: white;
+    text-align: center;
+}
+.card{
+    margin-top: 1rem;
+    box-shadow: 10px 5px 5px black;
+    margin: 2rem;
+}
+.table-group-divider{
+    color: #dc3545;
+}
+.btn-danger{
+    font-family: 'RockNRoll', sans-serif;
+}
+.bi{
+    color: #dc3545;
+    text-shadow: 0 0 15px black;
+}
+body{
+    background: repeating-linear-gradient(
+  120deg,
+  black,
+  black 800px,
+  red 800px,
+  red 1600px
+);
+}
+#email{
+    width: 49%;
+}
+.nick>input{
+    width: 24%;
+    margin-bottom: 1rem;
+}
+.message>input{
+    width: 49%;
+    margin-top: 1rem;
+}
+.nick>.nom{
+    margin-right: 1rem;
+}
+.Contact{
+    text-align: center;
+    font-family: 'HardRock',sans-serif;
+}
+::placeholder{
+    color: red;
+}
+.Contact>.btn{
+    background-color: red;
+    margin: 0.2rem;
+}
